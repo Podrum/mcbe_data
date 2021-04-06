@@ -4,13 +4,35 @@
     "minecraft:grass": {
         "snowy": {
             "type": "byte",
-            "values": [0, 1]
+            "values": [
+                0,
+                1
+            ]
         }
     },
     "minecraft:dirt": {},
     "minecraft:cobblestone": {},
     "minecraft:planks": {},
-    "minecraft:sapling": {},
+    "minecraft:sapling": {
+        "age_bit": {
+            "type": "byte",
+            "values": [
+                0,
+                1
+            ]
+        },
+        "sapling_type": {
+            "type": "string",
+            "values": [
+                "acacia",
+                "birch",
+                "dark_oak",
+                "jungle",
+                "oak",
+                "spruce"
+            ]
+        }
+    },
     "minecraft:bedrock": {},
     "minecraft:flowing_water": {},
     "minecraft:water": {},
