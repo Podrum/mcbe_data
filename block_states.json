@@ -1,7 +1,12 @@
 {
     "minecraft:air": {},
     "minecraft:stone": {},
-    "minecraft:grass": {},
+    "minecraft:grass": {
+        "snowy": {
+            "type": "byte",
+            "values": [0, 1]
+        }
+    },
     "minecraft:dirt": {},
     "minecraft:cobblestone": {},
     "minecraft:planks": {},
