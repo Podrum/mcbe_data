@@ -131,7 +131,25 @@
     "minecraft:gold_ore": {},
     "minecraft:iron_ore": {},
     "minecraft:coal_ore": {},
-    "minecraft:log": {},
+    "minecraft:log": {
+        "pillar_axis": {
+            "type": "int",
+            "values": [
+                0,
+                1,
+                2
+            ]
+        },
+        "old_log_type": {
+            "type": "string",
+            "values": [
+                "birch",
+                "jungle",
+                "oak",
+                "spruce"
+            ]
+        }
+    },
     "minecraft:leaves": {},
     "minecraft:sponge": {},
     "minecraft:glass": {},
