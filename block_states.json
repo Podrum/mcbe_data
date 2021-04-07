@@ -150,7 +150,31 @@
             ]
         }
     },
-    "minecraft:leaves": {},
+    "minecraft:leaves": {
+        "old_leaf_type": {
+            "type": "string",
+            "values": [
+                "oak",
+                "spruce",
+                "birch",
+                "jungle"
+            ]
+        },
+        "persistent_bit": {
+            "type": "byte",
+            "values": [
+                0,
+                1
+            ]
+        },
+        "update_bit": {
+            "type": "byte",
+            "values": [
+                0,
+                1
+            ]
+        }
+    },
     "minecraft:sponge": {},
     "minecraft:glass": {},
     "minecraft:lapis_ore": {},
