@@ -39,8 +39,8 @@ class get:
     
     @staticmethod
     def get_block_states():
-        return json.load(get.get_data_folder() + "/block_states.json")
+        return json.load(open(get.get_data_folder() + "/block_states.json", "rt"))
     
     @staticmethod
     def get_item_table():
-        return json.load(get.get_data_folder() + "/item_table.json")
+        return json.load(open(get.get_data_folder() + "/item_table.json", "rt"))
