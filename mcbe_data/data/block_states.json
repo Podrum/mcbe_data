@@ -1,180 +1,23 @@
 {
     "minecraft:air": {},
     "minecraft:stone": {},
-    "minecraft:grass": {
-        "snowy": {
-            "type": "byte",
-            "values": [
-                0,
-                1
-            ]
-        }
-    },
+    "minecraft:grass": {},
     "minecraft:dirt": {},
     "minecraft:cobblestone": {},
     "minecraft:planks": {},
-    "minecraft:sapling": {
-        "age_bit": {
-            "type": "byte",
-            "values": [
-                0,
-                1
-            ]
-        },
-        "sapling_type": {
-            "type": "string",
-            "values": [
-                "acacia",
-                "birch",
-                "dark_oak",
-                "jungle",
-                "oak",
-                "spruce"
-            ]
-        }
-    },
+    "minecraft:sapling": {},
     "minecraft:bedrock": {},
-    "minecraft:flowing_water": {
-        "liquid_depth": {
-            "type": "int",
-            "values": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "minecraft:water": {
-        "liquid_depth": {
-            "type": "int",
-            "values": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "minecraft:flowing_lava": {
-        "liquid_depth": {
-            "type": "int",
-            "values": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
-    "minecraft:lava": {
-        "liquid_depth": {
-            "type": "int",
-            "values": [
-                0,
-                1,
-                2,
-                3,
-                4,
-                5,
-                6,
-                7,
-                8,
-                9,
-                10,
-                11,
-                12,
-                13,
-                14,
-                15
-            ]
-        }
-    },
+    "minecraft:flowing_water": {},
+    "minecraft:water": {},
+    "minecraft:flowing_lava": {},
+    "minecraft:lava": {},
     "minecraft:sand": {},
     "minecraft:gravel": {},
     "minecraft:gold_ore": {},
     "minecraft:iron_ore": {},
     "minecraft:coal_ore": {},
-    "minecraft:log": {
-        "pillar_axis": {
-            "type": "int",
-            "values": [
-                0,
-                1,
-                2
-            ]
-        },
-        "old_log_type": {
-            "type": "string",
-            "values": [
-                "birch",
-                "jungle",
-                "oak",
-                "spruce"
-            ]
-        }
-    },
-    "minecraft:leaves": {
-        "old_leaf_type": {
-            "type": "string",
-            "values": [
-                "oak",
-                "spruce",
-                "birch",
-                "jungle"
-            ]
-        },
-        "persistent_bit": {
-            "type": "byte",
-            "values": [
-                0,
-                1
-            ]
-        },
-        "update_bit": {
-            "type": "byte",
-            "values": [
-                0,
-                1
-            ]
-        }
-    },
+    "minecraft:log": {},
+    "minecraft:leaves": {},
     "minecraft:sponge": {},
     "minecraft:glass": {},
     "minecraft:lapis_ore": {},
